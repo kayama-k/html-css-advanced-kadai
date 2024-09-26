@@ -20,14 +20,10 @@
         <a href="index.html#contact">CONTACT</a>
       </nav>
       <!-- スマホ用メニューボタン -->
-       <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-        <img src="images/button-menu.png" alt="ナビゲーションを開く">
-       </button>
+        <img id="menu-sp" src="images/button-menu.png" onclick="document.getElementById('nav-sp').style.display = 'block'" alt="ナビゲーションを開く">
       <!-- スマホ用ナビゲーション -->
        <nav id="nav-sp">
-        <button onclick="document.getElementById('nav-sp').style.display = 'none'">
-         <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる">
-        </button>
+         <img id="close" src="images/button-close.png" onclick="document.getElementById('nav-sp').style.display = 'none'" alt="ナビゲーションを閉じる">
          <ul>
           <li><a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
             <img src="images/logo-sp.png" alt="トップページに戻る">
